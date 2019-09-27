@@ -1,11 +1,18 @@
+/* GLOBAL */
 * {
   margin: 0;
 }
 
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+/* NAVBAR */
 .nav-wrapper {
   display: flex;
   justify-content: space-between;
-  padding: 40px;
+  padding: 45px;
 }
 
 .left-side {
@@ -37,3 +44,5 @@
 .nav-link-wrapper a:hover {
   color: black;
 }
+
+/* PORTFOLIO */
