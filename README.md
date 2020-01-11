@@ -1,3 +1,3 @@
-# Star-Wars-ships
+# Star Wars ships
 
 https://www.starwars.com/databank
