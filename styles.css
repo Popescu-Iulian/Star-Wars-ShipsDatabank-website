@@ -75,8 +75,23 @@
 	padding: 0 70px;
 }
 
-.logo-wrapper p {
+.logo-wrapper h2 {
 	margin-bottom: 20px;
 	color: white;
-	font-size: 2rem;
+}
+
+.img-text-wrapper .subtitle {
+	transition: 1s;
+	color: transparent;
+	font-weight: 600;
+}
+
+.img-text-wrapper:hover .subtitle {
+	font-weight: 600;
+	color: lightseagreen;
+}
+
+.p-darken {
+	transition: 1s;
+	filter: brightness(10%);
 }
